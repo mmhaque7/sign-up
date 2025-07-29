@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+.left-side {
+  position: relative;
+}
+.right-side {
+  background-color: blue;
+  flex-grow: 2;
+}
+
+.logo-container {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+.logo-container h1 {
+  color: white;
+}
+.copyright {
+  position: absolute;
+  top: 98%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.copyright a {
+  text-decoration: none;
+  color: white;
+}
+.copyright p {
+  color: thistle;
+}
